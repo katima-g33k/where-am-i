@@ -1,0 +1,41 @@
+{
+  "name": "where-am-i",
+  "version": "0.1.0",
+  "homepage": "https://katima-g33k.github.io/where-am-i",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.68",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
