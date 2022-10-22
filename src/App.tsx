@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { convertTimeZone, getTimeString } from "./utils/time";
+import { getQueryParam } from "./utils/queryParams";
+
+import data from "./data";
+import i18n from "./locale";
+import { DEFAULT_LOCALE } from "./constants";
+import type { Locale } from "./types";
 
 function App() {
+  const [homeTime, setHomeTime] = useState(new Date());
+  const locale = (getQueryParam("locale") || DEFAULT_LOCALE) as Locale;
+
+  setInterval(() => {
+    const currentTime = new Date();
+
+    if (homeTime.getMinutes() !== currentTime.getMinutes()) {
+      setHomeTime(currentTime);
+    }
+  }, 1000);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>{`${i18n[locale].location} ${data.city[locale]} (${data.country[locale]})`}</p>
+      <p>{`${i18n[locale].time} ${getTimeString(convertTimeZone(homeTime, data.timeZone), locale)}`}</p>
     </div>
   );
 }
