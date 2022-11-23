@@ -1,14 +1,14 @@
 import { Data } from "../types";
 
 const data: Data = {
-  timeZone: "Asia/Saigon",
+  timeZone: "Asia/Phnom_Penh",
   city: {
-    en: "Ho Chi Minh",
-    fr: "Ho Chi Minh",
+    en: "Phnom Penh",
+    fr: "Phnom Penh",
   },
   country: {
-    en: "Vietnam",
-    fr: "Vietnam",
+    en: "Cambodia",
+    fr: "Cambodge",
   }
 }
 
