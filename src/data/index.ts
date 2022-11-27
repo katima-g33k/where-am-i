@@ -3,8 +3,8 @@ import { Data } from "../types";
 const data: Data = {
   timeZone: "Asia/Phnom_Penh",
   city: {
-    en: "Phnom Penh",
-    fr: "Phnom Penh",
+    en: "Siem Reap",
+    fr: "Siem Reap",
   },
   country: {
     en: "Cambodia",
