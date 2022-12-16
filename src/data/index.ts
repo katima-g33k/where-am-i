@@ -3,8 +3,8 @@ import { Data } from "../types";
 const data: Data = {
   timeZone: "Asia/Bangkok",
   city: {
-    en: "Bangkok",
-    fr: "Bangkok",
+    en: "Koh Pha Ngan",
+    fr: "Koh Pha Ngan",
   },
   country: {
     en: "Thailand",
