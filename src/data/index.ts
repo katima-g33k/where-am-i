@@ -2,7 +2,21 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
+    from: "2023-01-27",
+    to: "2023-02-10",
+    timeZone: "Asia/Saigon",
+    city: {
+      en: "Hanoi",
+      fr: "Hanoi",
+    },
+    country: {
+      en: "Vietnam",
+      fr: "Vietnam",
+    }
+  },
+  {
     from: "2023-01-20",
+    to: "2023-01-27",
     timeZone: "Asia/Saigon",
     city: {
       en: "Hoi An",
