@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { convertTimeZone, getTimeOfDay, getTimeString } from "./utils/time";
 import { getQueryParam } from "./utils/queryParams";
 
+import Stats from "./Stats";
 import data from "./data";
 import i18n from "./locale";
 import { useData } from "./hooks/useData";
 import { DEFAULT_LOCALE } from "./constants";
 import type { Locale } from "./types";
-
 
 function App() {
   const currentData = useData(data);
@@ -33,6 +33,7 @@ function App() {
       <main>
         <p>{`${i18n[locale].location} ${currentData.city[locale]} (${currentData.country[locale]})`}</p>
         <p>{`${i18n[locale].time} ${getTimeString(localTime, locale)}`}</p>
+        <Stats locale={locale} />
       </main>
     </div>
   );

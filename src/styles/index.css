@@ -48,6 +48,20 @@ body {
   color: white;
 }
 
+#stats {
+  margin-top: 12px;
+}
+
+#stats h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+#stats p {
+  font-size: 36px;
+}
+
 .morning {
   background: rgb(238,174,202);
   background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
