@@ -2,6 +2,19 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
+    from: "2023-02-10",
+    to: "2023-03-10",
+    timeZone: "Asia/Kuala_Lumpur",
+    city: {
+      en: "Kuala Lumpur",
+      fr: "Kuala Lumpur",
+    },
+    country: {
+      en: "Malaysia",
+      fr: "Malaisie",
+    }
+  },
+  {
     from: "2023-01-27",
     to: "2023-02-10",
     timeZone: "Asia/Saigon",
