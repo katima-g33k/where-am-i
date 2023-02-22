@@ -3,7 +3,7 @@ import { Data } from "../types";
 const data: Data[] = [
   {
     from: "2023-02-10",
-    to: "2023-03-10",
+    to: "2023-04-10",
     timeZone: "Asia/Kuala_Lumpur",
     city: {
       en: "Kuala Lumpur",
