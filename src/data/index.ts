@@ -2,6 +2,96 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
+    from: "2023-07-01",
+    timeZone: "America/Montreal",
+    city: {
+      en: "Sherbrooke",
+      fr: "Sherbrooke",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
+    from: "2023-06-17",
+    to: "2023-07-01",
+    timeZone: "America/Vancouver",
+    city: {
+      en: "Vancouver",
+      fr: "Vancouver",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
+    from: "2023-06-12",
+    to: "2023-06-17",
+    timeZone: "Asia/Tokyo",
+    city: {
+      en: "Tokyo",
+      fr: "Tokyo",
+    },
+    country: {
+      en: "Japan",
+      fr: "Japon",
+    }
+  },
+  {
+    from: "2023-06-10",
+    to: "2023-06-12",
+    timeZone: "Asia/Tokyo",
+    city: {
+      en: "Kyoto",
+      fr: "Kyoto",
+    },
+    country: {
+      en: "Japan",
+      fr: "Japon",
+    }
+  },
+  {
+    from: "2023-06-06",
+    to: "2023-06-10",
+    timeZone: "Asia/Tokyo",
+    city: {
+      en: "Osaka",
+      fr: "Osaka",
+    },
+    country: {
+      en: "Japan",
+      fr: "Japon",
+    }
+  },
+  {
+    from: "2023-05-12",
+    to: "2023-06-16",
+    timeZone: "Asia/Tokyo",
+    city: {
+      en: "Tokyo",
+      fr: "Tokyo",
+    },
+    country: {
+      en: "Japan",
+      fr: "Japon",
+    }
+  },
+  {
+    from: "2023-04-10",
+    to: "2023-05-12",
+    timeZone: "Asia/Seoul",
+    city: {
+      en: "Seoul",
+      fr: "Séoul",
+    },
+    country: {
+      en: "South Korea",
+      fr: "Corée du Sud",
+    }
+  },
+  {
     from: "2023-02-10",
     to: "2023-04-10",
     timeZone: "Asia/Kuala_Lumpur",
