@@ -2,7 +2,72 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
+    from: "2023-11-07",
+    timeZone: "Asia/Kuala_Lumpur",
+    city: {
+      en: "Kuala Lumpur",
+      fr: "Kuala Lumpur",
+    },
+    country: {
+      en: "Malaysia",
+      fr: "Malaisie",
+    }
+  },
+  {
+    from: "2023-11-03",
+    to: "2023-11-06",
+    timeZone: "America/Vancouver",
+    city: {
+      en: "Vancouver",
+      fr: "Vancouver",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
+    from: "2023-09-27",
+    to: "2023-11-02",
+    timeZone: "America/Bogota",
+    city: {
+      en: "Medellin",
+      fr: "Medellin",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
+    from: "2023-09-15",
+    to: "2023-09-26",
+    timeZone: "America/Montreal",
+    city: {
+      en: "Sherbrooke",
+      fr: "Sherbrooke",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
+    from: "2023-08-18",
+    to: "2023-09-14",
+    timeZone: "America/Vancouver",
+    city: {
+      en: "Vancouver",
+      fr: "Vancouver",
+    },
+    country: {
+      en: "Canada",
+      fr: "Canada",
+    }
+  },
+  {
     from: "2023-07-01",
+    to: "2023-08-17",
     timeZone: "America/Montreal",
     city: {
       en: "Sherbrooke",
