@@ -35,8 +35,8 @@ const data: Data[] = [
       fr: "Medellin",
     },
     country: {
-      en: "Canada",
-      fr: "Canada",
+      en: "Colombia",
+      fr: "Colombie",
     }
   },
   {
