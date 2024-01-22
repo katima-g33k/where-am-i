@@ -2,7 +2,7 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
-    from: "2024-01-29",
+    from: "2024-02-03",
     timeZone: "Europe/Budapest",
     city: {
       en: "Budapest",
