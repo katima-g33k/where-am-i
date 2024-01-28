@@ -2,15 +2,16 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
-    from: "2024-02-03",
-    timeZone: "Europe/Budapest",
+    from: "2024-01-24",
+    to: "2024-01-28",
+    timeZone: "Europe/Sofia",
     city: {
-      en: "Budapest",
-      fr: "Budapest",
+      en: "Sofia",
+      fr: "Sofia",
     },
     country: {
-      en: "Hungary",
-      fr: "Hongrie",
+      en: "Bulgaria",
+      fr: "Bulgarie",
     }
   },
   {
@@ -27,16 +28,15 @@ const data: Data[] = [
     }
   },
   {
-    from: "2024-01-24",
-    to: "2024-01-28",
-    timeZone: "Europe/Sofia",
+    from: "2024-02-03",
+    timeZone: "Europe/Budapest",
     city: {
-      en: "Sofia",
-      fr: "Sofia",
+      en: "Budapest",
+      fr: "Budapest",
     },
     country: {
-      en: "Bulgaria",
-      fr: "Gulgarie",
+      en: "Hungary",
+      fr: "Hongrie",
     }
   },
   {
