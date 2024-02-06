@@ -29,6 +29,7 @@ const data: Data[] = [
   },
   {
     from: "2024-02-03",
+    to: "2024-02-09",
     timeZone: "Europe/Budapest",
     city: {
       en: "Budapest",
@@ -37,6 +38,32 @@ const data: Data[] = [
     country: {
       en: "Hungary",
       fr: "Hongrie",
+    }
+  },
+  {
+    from: "2024-02-10",
+    to: "2024-02-11",
+    timeZone: "Europe/Bratislava",
+    city: {
+      en: "Bratislava",
+      fr: "Bratislava",
+    },
+    country: {
+      en: "Slovakia",
+      fr: "Slovaquie",
+    }
+  },
+  {
+    from: "2024-02-12",
+    to: "2024-02-19",
+    timeZone: "Europe/Prague",
+    city: {
+      en: "Prague",
+      fr: "Prague",
+    },
+    country: {
+      en: "Czech Republic",
+      fr: "République tchèque",
     }
   },
   {
