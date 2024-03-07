@@ -2,77 +2,12 @@ import { Data } from "../types";
 
 const data: Data[] = [
   {
-    from: "2024-02-20",
-    to: "2024-02-26",
-    timeZone: "Europe/Amsterdam",
-    city: {
-      en: "Amsterdam",
-      fr: "Amsterdam",
-    },
-    country: {
-      en: "Netherlands",
-      fr: "Pays-Bas",
-    }
-  },
-  {
-    from: "2024-02-27",
-    to: "2024-02-28",
-    timeZone: "Europe/Brussels",
-    city: {
-      en: "Brussels",
-      fr: "Bruxelles",
-    },
-    country: {
-      en: "Belgium",
-      fr: "Belgique",
-    }
-  },
-  {
-    from: "2024-02-29",
-    to: "2024-02-29",
-    timeZone: "Europe/Luxembourg",
-    city: {
-      en: "Luxembourg",
-      fr: "Luxembourg",
-    },
-    country: {
-      en: "Luxembourg",
-      fr: "Luxembourg",
-    }
-  },
-  {
-    from: "2024-03-01",
-    to: "2024-03-02",
-    timeZone: "Europe/Paris",
-    city: {
-      en: "Dijon",
-      fr: "Dijon",
-    },
-    country: {
-      en: "France",
-      fr: "France",
-    }
-  },
-  {
-    from: "2024-03-03",
-    to: "2024-03-03",
-    timeZone: "Europe/Madrid",
-    city: {
-      en: "Barcelona",
-      fr: "Barcelone",
-    },
-    country: {
-      en: "Spain",
-      fr: "Espagne",
-    }
-  },
-  {
-    from: "2024-03-04",
+    from: "2024-03-07",
     to: "2024-03-12",
     timeZone: "Europe/Madrid",
     city: {
-      en: "Valencia",
-      fr: "Valence",
+      en: "Seville",
+      fr: "Seville",
     },
     country: {
       en: "Spain",
